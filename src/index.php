@@ -28,7 +28,7 @@
                                     </form>
                                 </div>
                             </h5>
-                            <form method="post" action="negocio/telas/FinalizarCompra.php">
+                            <form method="post" action="negocio/finalizarCompra.php">
                                 <div>
                                     <?php
                                     session_start(); //condicionais importantes para incremento e chamada de funções
