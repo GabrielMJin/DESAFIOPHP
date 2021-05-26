@@ -22,7 +22,5 @@ for ($i = 0; $i < $_SESSION['cesta']; $i++) { //criação dos produtos
 
 $finalizado = new Carrinho($carrinho, (float)$_POST['DESCONTO']); //instaciando a compra
 
-$_SESSION['finalizado'] = $finalizado;
-
 include '../telas/FinalizarCompra.php';
 ?>
